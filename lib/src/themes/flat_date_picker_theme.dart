@@ -29,6 +29,7 @@ class FlatDatePickerTheme extends ScrollWheelDatePickerTheme {
     super.itemTextStyle,
     super.overlay,
     super.overlayColor,
+    super.actiteItemTextStyle,
     required this.backgroundColor,
     super.fadeEdges,
   });

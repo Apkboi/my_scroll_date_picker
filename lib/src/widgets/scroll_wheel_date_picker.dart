@@ -143,6 +143,7 @@ class _ScrollWheelDatePickerState extends State<ScrollWheelDatePicker> {
             looping: looping,
             itemExtent: widget.theme.itemExtent,
             textStyle: widget.theme.itemTextStyle,
+            selectedTextStyle: widget.theme.actiteItemTextStyle,
             listenAfterAnimation: widget.listenAfterAnimation,
             scrollBehavior: widget.scrollBehavior,
             startOffset: startOffset,

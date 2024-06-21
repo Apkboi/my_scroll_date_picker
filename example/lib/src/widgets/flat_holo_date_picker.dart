@@ -24,9 +24,13 @@ class FlatHoloDatePicker extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
           child: ScrollWheelDatePicker(
+            loopDays: false,
+            listenAfterAnimation: false,
             startDate: DateTime(2024, 5, 18),
             theme: FlatDatePickerTheme(
               backgroundColor: Colors.white,
+              actiteItemTextStyle:
+                  defaultItemTextStyle.copyWith(color: Colors.red),
               overlay: ScrollWheelDatePickerOverlay.holo,
               itemTextStyle: defaultItemTextStyle.copyWith(color: Colors.black),
               overlayColor: Colors.black,

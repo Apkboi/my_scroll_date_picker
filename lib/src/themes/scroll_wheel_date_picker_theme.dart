@@ -33,6 +33,7 @@ abstract class ScrollWheelDatePickerTheme {
     this.overAndUnderCenterOpacity = defaultOpacity,
     this.monthFormat = MonthFormat.full,
     this.itemTextStyle,
+    this.actiteItemTextStyle,
     this.overlay = ScrollWheelDatePickerOverlay.holo,
     this.overlayColor,
     this.fadeEdges = true,
@@ -58,6 +59,9 @@ abstract class ScrollWheelDatePickerTheme {
 
   /// Text style of the items in the [ScrollWheelDatePicker]. Defaults to [defaultItemTextStyle].
   final TextStyle? itemTextStyle;
+
+  /// Text style of the items in the [ScrollWheelDatePicker]. Defaults to [defaultItemTextStyle].
+  final TextStyle? actiteItemTextStyle;
 
   /// Apply selected item's center overlay. Defaults to [ScrollWheelDatePickerOverlay.holo].
   final ScrollWheelDatePickerOverlay overlay;
